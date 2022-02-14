@@ -21,7 +21,7 @@
             
             .menu {
                 display: flex;
-                justify-content: right;
+                justify-content: left;
                 margin-top: 73px;
                 margin-right: 95px;
             }
@@ -66,8 +66,8 @@
             
             button {
                 height: 50px;
-                width: 241px;
-                border-radius: 23px;
+                width: 123px;
+                border-radius: 7px;
                 border: solid 3px black;
             }
             
@@ -78,7 +78,6 @@
             }
             
             .caixa2pagina2 {
-                background-color: #4B0082;
                 border: solid 3px black;
                 grid-row-start: 2;
                 grid-row-end: 3;
