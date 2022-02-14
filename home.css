@@ -1,0 +1,105 @@
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 576px 484px 192px;
+            }
+            
+            .cx1 {
+                grid-column-start: 1;
+                grid-column-end: 7;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                border: solid 3px black;
+            }
+            
+            .menu {
+                display: flex;
+                justify-content: right;
+                margin-top: 73px;
+                margin-right: 95px;
+            }
+            
+            .menu li {
+                display: inline-block;
+                justify-content: left;
+                margin-left: 22px;
+                font-size: 23px;
+            }
+            
+            .cx2 {
+                background-color: yellow;
+                border: solid 3px black;
+                grid-row-start: 3;
+                grid-row-end: 6;
+                grid-column-start: 1;
+                grid-column-end: 7
+            }
+            
+            .cx3 {
+                background-color: #4B0082;
+                border: solid 3px black;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 1;
+                grid-column-end: 4;
+            }
+            
+            .cx4 {
+                background-color: grey;
+                border: solid 3px black;
+                grid-row-start: 2;
+                grid-row-end: 2;
+                grid-column-start: 2;
+                grid-column-end: 7;
+                grid-column-start: 4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            button {
+                height: 50px;
+                width: 241px;
+                border-radius: 23px;
+                border: solid 3px black;
+            }
+            
+            a {
+                margin-left: 22px;
+                font-size: 23px;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .caixa2pagina2 {
+                background-color: #4B0082;
+                border: solid 3px black;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 1;
+                grid-column-end: 7;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-around;
+            }
+            
+            .container-page2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 576px 600px 192px;
+            }
+            
+            .card {
+                width: 259px;
+                height: 370px;
+                border: solid 3px black;
+                border-radius: 43px;
+                background-color: red;
+            }
